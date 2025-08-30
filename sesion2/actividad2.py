@@ -14,7 +14,7 @@ def devolver_dintintos(num1, num2, num3):
     lista_numeros.sort()
     
     if suma > 15:
-        mayor = lista_numeros[-1]
+        mayor = lista_numeros[2]
         return mayor
     
     # Si la suma de los 3 numeros es menor a 10, va a devolver el número menor
@@ -27,7 +27,7 @@ def devolver_dintintos(num1, num2, num3):
         intermedio = lista_numeros[1]
         return intermedio
     
-print(devolver_dintintos(6,2,5))
+print(devolver_dintintos(9,3,5))
         
     
 
